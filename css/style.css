@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+		font-family: 'Cairo', sans-serif;
+}
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../photo/bg.jpg);
+	background-size: cover;
+	background-position: top;
+
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+	height: 100px;
+	overflow: hidden;
+	padding: 0 8px;
+
+}
+.logo {
+	height: 200px;
+	position: relative;
+	right: 20px;
+}
+
+.h-l {
+	display: flex;
+	gap: 10px;
+	list-style: none;
+	position: relative;
+}
+.h-l a{
+	text-decoration: none;
+	font-weight: bolder;
+	color: #fff;
+	background-color: black;
+	padding: 8px 16px;
+
+}
+.i-s {
+	outline: none;
+	border: solid 1px black;
+	padding: 1px 8px;
+	border-radius: 15px;
+	position: relative;
+	
+}
+
+.photo {
+	padding: 15px;
+	background-color: rgba(0, 0, 0, 0.199);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-evenly ;
+	position: relative;
+	transition: 0.3s ease;
+
+}
+
+
+.photo img {
+	position: relative;
+	z-index: 3;
+	margin: 8px;
+	width: 23%;
+	aspect-ratio: 3/2;
+	object-fit: cover;
+	border-radius: 20px;
+	mix-blend-mode: multiply;
+	object-position: center;
+	transition: 0.3s ease;
+
+}
+
+.photo img:hover {
+	scale: 1.1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+	width: 99%;
+	height: 300px;
+	background-color: black;
+	position: relative;
+	color: #fff;
+	padding: 10px;
+	border-radius: 20px;
+}
+.t-m-l {
+	position: absolute;
+	top: 0;
+	left: 36%;
+
+
+}
+.t-m-l-2 {
+	position: absolute;
+	top: 65px;
+	left: 36%;
+}
+
+
+.i-f {
+	width: 34px;
+}
+.i-i {
+	width: 34px;
+}
+iframe {
+	width: 35%;
+	height: 98%;
+	border-radius: 20px;
+}
